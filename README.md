@@ -8,9 +8,9 @@ Tampermonkey userscript - Tracks clicked/visited links.  To copy unique unvisite
 // @name         Copy Unvisited Links (Custom History v1.9.1 - Local File Fixes)
 // @namespace    http://tampermonkey.net/
 // @version      1.9.1
-// @description  Tracks clicked/visited links,  drag and droping a text file or url
-// @description  will copy unique unvisited links from page or pasted text to the clipboard.
-// @description  Allows local file execution as well.
+// @description  Tracks clicked/visited links. To copy unique unvisited links from website or 
+// @description  file:// , drag and drop them onto the button. Or paste text from the clipboard 
+// @description  and have the clipboard only contain unvisited links. Allows selecting local files.
 // @author       Your Name / Gemini AI
 // @include       *
 // @match        *://*/*

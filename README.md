@@ -1,13 +1,16 @@
 # Copy-unvisited-links
-Tampermonkey userscript to copy unvisited links using database
-Just create a new script in tampermonkey and paste the below.
 
+Extract text from non binary files with sliders and preview. Drag and drop.
 
+## Userscript Code
+
+```javascript
 // ==UserScript==
 // @name         Copy Unvisited Links (Custom History v1.9.1 - Local File Fixes)
 // @namespace    http://tampermonkey.net/
 // @version      1.9.1
-// @description  Tracks clicked/visited links, copies unique unvisited links from page or pasted text. Allows local file execution if permitted.
+// @description  Tracks clicked/visited links, copies unique unvisited links from page or pasted text. 
+// @description  Allows local file execution as well.
 // @author       Your Name / Gemini AI
 // @include       *
 // @match        *://*/*
@@ -374,4 +377,5 @@ Just create a new script in tampermonkey and paste the below.
     console.log(`${CONSOLE_PREFIX} Script loaded successfully. Type 'clearUserLinkHistory_v${SCRIPT_VERSION.replace(/\./g, '_')}()' in the browser console to clear stored link history.`);
 
 })();
+
 

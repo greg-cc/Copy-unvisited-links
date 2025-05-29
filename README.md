@@ -1,7 +1,7 @@
 # Copy-unvisited-links
 
-Extract text from non binary files with sliders and preview. Drag and drop.
-
+Tampermonkey userscript - Tracks clicked/visited links, drag and droping a text file or url will copy unique unvisited links from page or pasted text. 
+// @description  Allows local file execution as well.
 ## Userscript Code
 
 ```javascript
@@ -9,7 +9,8 @@ Extract text from non binary files with sliders and preview. Drag and drop.
 // @name         Copy Unvisited Links (Custom History v1.9.1 - Local File Fixes)
 // @namespace    http://tampermonkey.net/
 // @version      1.9.1
-// @description  Tracks clicked/visited links, copies unique unvisited links from page or pasted text. 
+// @description  Tracks clicked/visited links,  drag and droping a text file or url
+// @description  will copy unique unvisited links from page or pasted text to the clipboard.
 // @description  Allows local file execution as well.
 // @author       Your Name / Gemini AI
 // @include       *

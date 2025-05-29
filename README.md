@@ -1,7 +1,6 @@
 # Copy-unvisited-links
 
-Tampermonkey userscript - Tracks clicked/visited links, drag and droping a text file or url will copy unique unvisited links from page or pasted text. 
-// @description  Allows local file execution as well.
+Tampermonkey userscript - Tracks clicked/visited links.  To copy unique unvisited links from website or file:// , drag and drop them onto the button. Or paste text from the clipboard and have the clipboard only contain unvisited links.  Allows selecting local files.
 ## Userscript Code
 
 ```javascript
